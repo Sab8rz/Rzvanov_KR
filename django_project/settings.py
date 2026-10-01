@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #'tasks.apps.TasksConfig',
+    'rzvanov_sabir_tasks.apps.RzvanovSabirTasksConfig',
+    'rzvanov_kr.apps.RzvanovKrConfig',
 ]
 
 MIDDLEWARE = [

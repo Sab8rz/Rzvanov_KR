@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task Tracker</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  </head>
+  <body>
+    {% csrf_token %}
+      <div class="container">
+        <br>
+        <h2><strong>Task Tracker Рзванов С.С. 📝</strong></h2>
+
+        <br>
+
+         <ul class="list-group">
+
+            <li class="list-group-item mb-2">
+              1. Сделать презентацию по паттерну защиты от межсайтовой подделки запроса.
+            </li> 
+            <li class="list-group-item mb-2">
+              2. Отправить презентацию Корнееву Н.В. до 01.10 до 24:00.
+            </li> 
+            <li class="list-group-item mb-2">
+              3. Написать введение по ВКР.
+            </li> 
+           <li class="list-group-item mb-2">
+             4. Оплатить налог.
+           </li> 
+           <li class="list-group-item mb-2">
+             5. Сходить в зал.
+           </li> 
+           <li class="list-group-item mb-2">
+             6. Отправить посылку.
+           </li> 
+           <li class="list-group-item mb-2">
+             7. Пойти к врачу.
+           </li> 
+           <li>
+             Секретный ключ {{ secret_key }}
+           </li>
+
+        </ul>
+
+
+
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
